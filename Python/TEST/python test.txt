@@ -1,0 +1,51 @@
+1.Explain Encapsulation with example and write python code.
+Answer:-Encapsulation is a fundamental object-oriented principle in Python. 
+  It protects your classes from accidental changes or deletions and promotes code reusability and maintainability. 
+
+
+2. Explain Polymorphism with example and write python code.
+Answer:- Polymorphism means one thing existing in several different forms , 
+and its also involves deciding at runtime which function form base class or derived class should get called.
+
+3. Explain Single Level Inheritance with python code.
+Answer:-Single-level inheritance is a type of inheritance where a child class inherits properties and behaviors or methods from another parent class.
+       
+4. Explain Multiple inheritance with python code.
+Answer:-Multiple inheritance is class can inherit attributes and methods from more than one parent class. 
+This allows a class to combine functionalities from multiple sources.
+
+5. Explain Muti-level inheritance with python code
+Answer:- Muti-level inheritance is When one class inherits another class it is further inherited by another class. It is known as multi-level inheritance
+
+6. What do you mean by conditional statements. Explain with python code
+Answer:-conditional statements is the statement where the code based on whether a specified condition is true or false
+
+syntax: if-elif-else Statement:            if-else Statement:                        if Statement:        Nested if Statements:
+	if.(condition1).....              if.(condition1).....                      if condition         if condition:
+	.
+	.
+	elif.(condition2)		  else: The final code to be executed				 if condition:
+	.
+	.
+	else: The final code to be executed								else:
+													else: The final code to be executed
+
+7. What do you mean by decision making statements. Explain with python code.
+Answer:- decision making statements and conditional statements is the statement where the code based on whether a specified condition is true or false
+syntax: if-elif-else Statement:            if-else Statement:                        if Statement:        Nested if Statements:
+	if.(condition1).....              if.(condition1).....                      if condition         if condition:
+	.
+	.
+	elif.(condition2)		  else: The final code to be executed				 if condition:
+	.
+	.
+	else: The final code to be executed								else:
+													else: The final code to be executed
+
+
+9. What do you understand by Functions? Explain with python code.
+Answer:- Functions in programming are reusable blocks of code that perform a specific task. functions are defined using the 'def' keyword
+
+
+10. How many pillars of Oops we have in Python
+Answer:- In oject-oriented programming (OOP) languages there are four pillers ,i.e Encapsulation,Polymorphism,Inheritance,Abstraction
