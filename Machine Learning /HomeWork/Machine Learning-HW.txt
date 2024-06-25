@@ -31,7 +31,6 @@ Example Scenario: Email spam detection
 
 
 
-
 Regression Vs Classification
 
 Regression:-
