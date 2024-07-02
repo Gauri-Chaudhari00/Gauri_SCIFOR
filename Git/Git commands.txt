@@ -1,0 +1,61 @@
+						Git Commands
+
+1.Configure Git with your username and email:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+2.Creating and Cloning Repositories:
+git init
+
+
+3.Clone an existing repository:
+git clone <repository-url>
+
+
+
+					Basic File Operations
+1.Add files to the staging area:
+git add <file-name>       # Add a specific file
+git add .                 # Add all files in the current directory
+
+2.Check the status of the working directory and staging area:
+git status
+
+3.Commit changes with a message:
+git commit -m "Your commit message"
+
+
+					Branching and Merging
+1.List all branches:
+git branch
+2.Create a new branch:
+git branch <branch-name>
+3.Switch to another branch:
+git checkout <branch-name>
+
+4.Create and switch to a new branch in one command:
+git checkout -b <branch-name>
+
+5.Merge a branch into the current branch:
+git merge <branch-name>
+					Remote Repositories
+1.Add a remote repository:
+git remote add origin <repository-url>
+
+2.List all configured remote repositories:
+git remote -v
+
+3.Push changes to a remote repository:
+git push origin <branch-name>
+
+4.Fetch changes from a remote repository:
+git fetch
+Pull changes from a remote repository and merge:
+git pull
+					
+					Viewing History and Changes
+1.Show commit history:
+git log
+
+2.Show a specific commit:
+git show <commit-hash>
