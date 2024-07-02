@@ -1,0 +1,286 @@
+Admin@DESKTOP-HPANELH MINGW64 ~
+$ git --version
+git version 2.44.0.windows.1
+
+Admin@DESKTOP-HPANELH MINGW64 ~
+$ git config --global user.name "Gauri Chaudhari"
+
+Admin@DESKTOP-HPANELH MINGW64 ~
+$ git config --global user.email "gaurichaudhari828@gmail.com"
+
+Admin@DESKTOP-HPANELH MINGW64 ~
+$ git config --global user.email
+gaurichaudhari828@gmail.com
+
+Admin@DESKTOP-HPANELH MINGW64 ~
+$ git config --global user.name
+Gauri Chaudhari
+
+Admin@DESKTOP-HPANELH MINGW64 ~
+$ mkdir BasicGit
+
+Admin@DESKTOP-HPANELH MINGW64 ~
+$ cd BasicGit
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit
+$ git init
+Initialized empty Git repository in C:/Users/Admin/BasicGit/.git/
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add #Invoking the function.py
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add #invoking the function.py
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add function.py
+fatal: pathspec 'function.py' did not match any files
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add function.py
+fatal: pathspec 'function.py' did not match any files
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ ^C
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ ls
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add function.py
+fatal: pathspec 'function.py' did not match any files
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add function
+fatal: pathspec 'function' did not match any files
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ pwd
+/c/Users/Admin/BasicGit
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add function.py
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   function.py
+
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git commit -m "initial commit"
+[master (root-commit) ae9664b] initial commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 function.py
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git log
+commit ae9664b2f64a3cb2d6f446297eca36cf6dbc908d (HEAD -> master)
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:13:18 2024 +0530
+
+    initial commit
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   function.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   function.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   function.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sum.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add sum.py
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   sum.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   function.py
+
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git commit -m "adding sum.py"
+[master 2334db7] adding sum.py
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sum.py
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git log
+commit 2334db7a179160d08f0bd1f61f539e2143baa33c (HEAD -> master)
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:24:44 2024 +0530
+
+    adding sum.py
+
+commit ae9664b2f64a3cb2d6f446297eca36cf6dbc908d
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:13:18 2024 +0530
+
+    initial commit
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git add .
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git commit -m "added new function in function.py"
+[master 585cab2] added new function in function.py
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git log
+commit 585cab214a054189e5e36d4e0a2b024adc7c8086 (HEAD -> master)
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:27:31 2024 +0530
+
+    added new function in function.py
+
+commit 2334db7a179160d08f0bd1f61f539e2143baa33c
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:24:44 2024 +0530
+
+    adding sum.py
+
+commit ae9664b2f64a3cb2d6f446297eca36cf6dbc908d
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:13:18 2024 +0530
+
+    initial commit
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git checkout ^C
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git branch string
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git branch
+* master
+  string
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git checkout string
+Switched to branch 'string'
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (string)
+$ git checkout master
+Switched to branch 'master'
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   sum.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$ git log
+commit 585cab214a054189e5e36d4e0a2b024adc7c8086 (HEAD -> master, string)
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:27:31 2024 +0530
+
+    added new function in function.py
+
+commit 2334db7a179160d08f0bd1f61f539e2143baa33c
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:24:44 2024 +0530
+
+    adding sum.py
+
+commit ae9664b2f64a3cb2d6f446297eca36cf6dbc908d
+Author: Gauri Chaudhari <gaurichaudhari828@gmail.com>
+Date:   Tue Jul 2 20:13:18 2024 +0530
+
+    initial commit
+
+Admin@DESKTOP-HPANELH MINGW64 ~/BasicGit (master)
+$

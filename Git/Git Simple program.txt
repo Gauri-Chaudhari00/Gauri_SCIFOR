@@ -1,0 +1,22 @@
+function.py
+
+#Invoking the function
+# posittion of peramiters does matter 
+
+def Happy_Birthday(name,age):
+  print(f"\nGood morning {name}!")
+  print("Happy Birthday!")
+  print(f"today you will be {age}")
+  print("God bless you")
+
+Happy_Birthday("Radha", 24)
+Happy_Birthday("Ram", 20)
+Happy_Birthday("Payal",33)
+
+
+sum.py
+
+a=10
+b=20
+c= a+b
+print(c)
