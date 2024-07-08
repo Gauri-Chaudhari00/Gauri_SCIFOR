@@ -1,0 +1,106 @@
+First go through simple and basic statistics
+
+
+
+Descriptive Statistics
+Inherentiall statistics
+Probability and Frequency Distribution
+
+						Descriptive Statistics:
+Descriptive statistics involves methods for summarizing and organizing data. These methods include:
+
+Measures of Central Tendency:
+
+Mean: The average of all data points.
+Median: The middle value when data points are ordered.
+Mode: The most frequently occurring value.
+Measures of Variability:
+
+Range: The difference between the maximum and minimum values.
+Variance: The average of the squared differences from the mean.
+Standard Deviation: The square root of the variance, indicating data spread.
+Shape of the Distribution:
+
+Skewness: Indicates the asymmetry of the data distribution.
+Kurtosis: Indicates the peakedness of the data distribution.
+Graphs and Charts:
+
+Histograms, bar charts, and pie charts are common tools to visualize data distributions and summaries.
+Example:
+For a dataset of exam scores: [80, 85, 90, 95, 100]
+
+Mean: 90
+Median: 90
+Mode: None (all values are unique)
+Range: 20
+Standard Deviation: Approximately 7.91
+Inferential Statistics
+Inferential statistics involves methods that allow us to make conclusions or inferences about a population based on a sample of data. Key methods include:
+
+Hypothesis Testing:
+
+Testing claims or hypotheses about a population parameter (e.g., population mean).
+Common tests: t-test, chi-square test, ANOVA.
+Confidence Intervals:
+
+A range of values used to estimate the true value of a population parameter.
+Example: A 95% confidence interval for a mean might be [85, 95].
+Regression Analysis:
+
+Examines the relationship between variables.
+Example: Linear regression to predict a dependent variable based on an independent variable.
+Correlation:
+
+Measures the strength and direction of the relationship between two variables.
+Example: Pearson correlation coefficient.
+Example:
+If we have a sample mean of 90 from a sample of exam scores, we might use inferential statistics to estimate the population mean and determine if it significantly differs from a hypothesized value (e.g., 85).
+
+Probability and Frequency Distribution
+Probability
+Probability measures the likelihood of an event occurring and ranges from 0 to 1.
+
+Basic Concepts:
+
+Probability of an Event (P(E)): Number of favorable outcomes divided by the total number of possible outcomes.
+Complementary Events: P(E') = 1 - P(E)
+Types of Events:
+
+Independent Events: The occurrence of one event does not affect the other.
+Dependent Events: The occurrence of one event affects the other.
+Probability Distributions:
+
+Discrete Distributions: Examples include binomial and Poisson distributions.
+Continuous Distributions: Examples include normal and exponential distributions.
+Frequency Distribution
+Frequency distribution summarizes data by showing the number of observations within each given interval.
+
+Types of Frequency Distributions:
+
+Absolute Frequency: The count of observations within an interval.
+Relative Frequency: The proportion of observations within an interval relative to the total number of observations.
+Cumulative Frequency: The accumulation of previous frequencies up to the current point.
+Visual Representations:
+
+Histograms: Show the frequency of data intervals.
+Frequency Polygons: Line graphs showing the frequencies of different intervals.
+Example:
+For exam scores [80, 85, 85, 90, 90, 95, 100]:
+
+Absolute Frequency: {80: 1, 85: 2, 90: 2, 95: 1, 100: 1}
+Relative Frequency: {80: 1/7, 85: 2/7, 90: 2/7, 95: 1/7, 100: 1/7}
+Cumulative Frequency: {80: 1, 85: 3, 90: 5, 95: 6, 100: 7}
+Summary
+Descriptive Statistics: Summarize and describe the main features of a dataset.
+Inferential Statistics: Make inferences about populations using sample data.
+Probability and Frequency Distribution: Measure and represent the likelihood and distribution of data.
+These foundational concepts are essential for analyzing and interpreting data in various fields. For further learning, 
+video tutorials and courses on platforms like YouTube, Coursera, and Khan Academy can be very helpful.
+
+
+
+
+
+
+
+
