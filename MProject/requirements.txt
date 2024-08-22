@@ -1,5 +1,5 @@
-streamlit==
-openai==
-SpeechRecognition==
-gtts==
-audio_recorder_streamlit==
+streamlit
+openai
+SpeechRecognition
+gtts
+audio_recorder_streamlit
