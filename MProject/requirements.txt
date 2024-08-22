@@ -1,0 +1,5 @@
+streamlit==1.19.0
+openai==0.27.0
+SpeechRecognition==3.9.0
+gtts==2.2.4
+audio_recorder_streamlit==0.1.1
