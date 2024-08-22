@@ -1,5 +1,5 @@
 ﻿import streamlit as st
-import openai
+from openai import OpenAI
 import speech_recognition as sr
 from gtts import gTTS
 from io import BytesIO
